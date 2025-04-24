@@ -59,7 +59,7 @@
 
 @media (max-width:850px){
     .testimonials{
-    
+
         padding: 0 40px;
     }
     .next-btn ,.back-btn{
@@ -91,5 +91,12 @@
     }
     .user-info p{
         font-size: 10px;
+    }
+    .slider ul{
+        display: flex;
+        overflow-x: hidden;
+        width:400%;
+        transition: 0.5s;
+        transform: translateX(0%);
     }
 }
