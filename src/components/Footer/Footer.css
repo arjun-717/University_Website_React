@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    border-top: 1px solid #727272;
+}
+.footer ul{
+    margin: 15px 0;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block ;
+    margin-right: 20px;
+    cursor: pointer;
+}
+@media (max-width:630px){
+    .footer{
+     display: block;
+     text-align: center;
+    }
+    .footer p{
+        margin: 15px 0;
+    }
+    .footer ul li{
+        font-size: 14px;
+        margin-right: 0px;
+        padding: 8px;
+    }
+  
+    
+}

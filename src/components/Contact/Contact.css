@@ -1,0 +1,86 @@
+.contact{
+    
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-col{
+    flex-basis:48%;
+    
+}
+.contact-col h3{
+    font-weight: 500;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col h3 img{
+    width: 30px;
+    margin-left: 10px;
+    
+}
+.contact-col p{
+   margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.573);
+    max-width: 450px;
+    list-style: 0.3;
+
+}
+.contact-col ul{
+    list-style: none;
+}
+.contact-col ul li{
+    color: rgba(0, 0, 0, 0.573);
+    margin: 20px  0;
+    display: flex;
+    align-items: center;
+  
+
+}
+.contact-col ul{
+    margin-bottom: 100px;
+}
+.contact-col ul li img{
+    width: 20px;
+    margin-right: 10px;
+   
+}
+.contact-col form input , .contact-col form textarea{
+    display: block;
+    margin-top: 5px ;
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: #ebecfe;
+}
+.contact-col form label{
+    color: rgba(0, 0, 0, 0.783);
+  
+}
+form{
+   
+    margin-bottom: 20px;
+}
+
+@media (max-width:800px){
+    .contact{
+        margin: 50px auto 10px;
+        width: 90%;
+        flex-direction: column;
+
+    }
+    .contact-col{
+        flex-basis:100%;
+        width: 100%;
+        
+    }
+    .contact-col ul{
+        margin-bottom: 50px;
+    }
+}
